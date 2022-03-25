@@ -6,9 +6,9 @@
 typedef struct s_cmd
 {
 	char			**args;
-	int				fds[2];
+	int			fds[2];
 	short			pipe;
-	struct s_cmd	*next;
+	struct s_cmd		*next;
 }	t_cmd;
 
 int	_strlen(char *str)
